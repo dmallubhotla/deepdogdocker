@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/dmallubhotla/deepdogdocker/compare/v1.0.2...v1.1.0) (2022-12-11)
+
+
+### Features
+
+* changes entrypoint to python ([2081e1b](https://github.com/dmallubhotla/deepdogdocker/commit/2081e1b336742dbb96e298f911d12b1e6f4c8918))
+
 ### [1.0.2](https://github.com/dmallubhotla/deepdogdocker/compare/v1.0.1...v1.0.2) (2022-12-11)
 
 

@@ -10,8 +10,8 @@ RUN apt-get update && apt-get install --no-install-recommends -y curl \
 
 
 RUN poetry --version
-ENTRYPOINT ["poetry"]
-CMD ["--help"]
+ENTRYPOINT ["python"]
+CMD ["--version"]
 
 WORKDIR /code
 COPY ./src/poetry.lock ./src/pyproject.toml /code/

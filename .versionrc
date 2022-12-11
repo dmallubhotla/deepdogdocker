@@ -1,0 +1,9 @@
+{
+  "bumpFiles": [
+    {
+      "filename": ".version",
+      "type": "plain-text"
+    }
+  ],
+  "sign": true
+}

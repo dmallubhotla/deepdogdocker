@@ -13,7 +13,7 @@ ENTRYPOINT ["poetry"]
 CMD ["--help"]
 
 WORKDIR /code
-COPY src/poetry.lock src/pyproject.toml /code/
+COPY ./src/poetry.lock ./src/pyproject.toml /code/
 
 RUN poetry config virtualenvs.create false
 RUN poetry install --no-interaction --no-ansi

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/dmallubhotla/deepdogdocker/compare/v2.0.1...v2.1.0) (2024-05-01)
+
+
+### Features
+
+* better venv handling and path setting to make python available ([00db7fb](https://github.com/dmallubhotla/deepdogdocker/commit/00db7fb1314c2ef7a74c183b0faf4f9769e146e6))
+
 ### [2.0.1](https://github.com/dmallubhotla/deepdogdocker/compare/v2.0.0...v2.0.1) (2024-05-01)
 
 

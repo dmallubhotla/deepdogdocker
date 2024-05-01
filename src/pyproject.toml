@@ -1,14 +1,10 @@
 [tool.poetry]
-name = "deepdogdocker"
-version = "0.1.0"
-description = ""
-authors = ["Deepak Mallubhotla <dmallubhotla+github@gmail.com>"]
+package-mode=false
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.10"
-pdme = "^0.8.7"
-# deepdog = {path  = "../deepdog", develop = true}
-deepdog = "^0.6.4"
+pdme = "^1.0.0"
+deepdog = "^0.8.1"
 
 [tool.poetry.dev-dependencies]
 ipython = "^8.3.0"

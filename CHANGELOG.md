@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/dmallubhotla/deepdogdocker/compare/v1.1.0...v2.0.0) (2024-05-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* hopefully better release strategy
+
+### Features
+
+* hopefully better release strategy ([cc23a7d](https://github.com/dmallubhotla/deepdogdocker/commit/cc23a7d654b5e0da3304ab560dc2f5353031228f))
+* updates pdme and deepdog to much newer versions, and changes poetry to not package mode ([ee12d06](https://github.com/dmallubhotla/deepdogdocker/commit/ee12d06daab78664f70f89e03fd8d5c41e6ddd87))
+
 ## [1.1.0](https://github.com/dmallubhotla/deepdogdocker/compare/v1.0.2...v1.1.0) (2022-12-11)
 
 

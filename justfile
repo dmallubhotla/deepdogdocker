@@ -6,9 +6,15 @@ IMAGE_BASE:="deepdogdocker"
 default:
 	just --list --justfile {{justfile()}}
 
-# release the app, checking that our working tree is clean and ready for release
-release:
-	./scripts/release.sh
+# release the app, checking that our working tree is clean and ready for release, optionally takes target version
+release version="":
+	#!/usr/bin/env bash
+	set -euxo pipefail
+	if [[ -n "{{version}}" ]]; then
+		./scripts/release.sh {{version}}
+	else
+		./scripts/release.sh
+	fi
 
 # Build a local image, probably not good to push it.
 build:

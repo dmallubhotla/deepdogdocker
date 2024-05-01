@@ -1,13 +1,11 @@
 FROM python:3.9
 
 ENV PATH=/opt/poetry/bin:$PATH \
-    POETRY_VERSION=1.3.0 \
+    POETRY_VERSION=1.8.2 \
     POETRY_HOME=/opt/poetry
 
-RUN apt-get update && apt-get install --no-install-recommends -y curl \
-    && curl -sSL https://install.python-poetry.org | python3 - \
-    && rm -rf /var/lib/apt/lists/*
-
+RUN python3 -m venv $POETRY_HOME
+RUN $POETRY_HOME/bin/pip install poetry==$POETRY_VERSION
 
 RUN poetry --version
 ENTRYPOINT ["python"]
@@ -17,4 +15,4 @@ WORKDIR /code
 COPY ./src/poetry.lock ./src/pyproject.toml /code/
 
 RUN poetry config virtualenvs.create false
-RUN poetry install --no-interaction --no-ansi
+RUN poetry install --no-interaction --no-ansi --only main

@@ -17,6 +17,7 @@
             just
             poetry
             python39
+            nodejs
           ];
         };
     };

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/dmallubhotla/deepdogdocker/compare/v2.1.0...v2.2.0) (2024-05-02)
+
+
+### Features
+
+* updates deepdog ([411f10b](https://github.com/dmallubhotla/deepdogdocker/commit/411f10bd38939a3d7887748b393e7c5e86d024fd))
+
 ## [2.1.0](https://github.com/dmallubhotla/deepdogdocker/compare/v2.0.1...v2.1.0) (2024-05-01)
 
 

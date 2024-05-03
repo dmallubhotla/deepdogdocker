@@ -13,18 +13,18 @@ files = [
 
 [[package]]
 name = "deepdog"
-version = "1.0.1"
+version = "1.1.0"
 description = ""
 optional = false
 python-versions = "<3.10,>=3.8.1"
 files = [
-    {file = "deepdog-1.0.1-py3-none-any.whl", hash = "sha256:dcbcf1c8c3282010f31190279f66b05d3dbe979af20a7ee78f54644958bc76fd"},
-    {file = "deepdog-1.0.1.tar.gz", hash = "sha256:1eee23efbeb65745e2e5677ebf31f81e62ec327949e4affade6ee18d5f1fe9fe"},
+    {file = "deepdog-1.1.0-py3-none-any.whl", hash = "sha256:ae650f38956310f1b2f533aac0cb7bc323d7bac5a6f35ff01e3ccc29181ace62"},
+    {file = "deepdog-1.1.0.tar.gz", hash = "sha256:8616883b79522bdd8f8d28287163f2f35033c07140a56a982e466ad13f0051cc"},
 ]
 
 [package.dependencies]
 numpy = "1.22.3"
-pdme = ">=1.0.0,<2.0.0"
+pdme = ">=1.2.0,<2.0.0"
 scipy = "1.10"
 tqdm = ">=4.66.2,<5.0.0"
 
@@ -59,13 +59,13 @@ files = [
 
 [[package]]
 name = "pdme"
-version = "1.0.0"
+version = "1.2.0"
 description = "Python dipole model evaluator"
 optional = false
 python-versions = "<3.10,>=3.8.1"
 files = [
-    {file = "pdme-1.0.0-py3-none-any.whl", hash = "sha256:8fb8d1bf3d88f73118da5731332ae00c721b98daf53b225069e422af1a1a67f2"},
-    {file = "pdme-1.0.0.tar.gz", hash = "sha256:02cabf2e6fc2ddaf0871d0b3afcf265bca16520ee7bc1c74672be62f7a8390bd"},
+    {file = "pdme-1.2.0-py3-none-any.whl", hash = "sha256:602710a053f22921b4adbc03d46d284149fe2367a65455cde56608708e01c84b"},
+    {file = "pdme-1.2.0.tar.gz", hash = "sha256:412806d7ae384c048515e0f2cba70252778bf153800829a1d3265a0596872263"},
 ]
 
 [package.dependencies]
@@ -112,13 +112,13 @@ test = ["asv", "gmpy2", "mpmath", "pooch", "pytest", "pytest-cov", "pytest-timeo
 
 [[package]]
 name = "tqdm"
-version = "4.66.2"
+version = "4.66.4"
 description = "Fast, Extensible Progress Meter"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "tqdm-4.66.2-py3-none-any.whl", hash = "sha256:1ee4f8a893eb9bef51c6e35730cebf234d5d0b6bd112b0271e10ed7c24a02bd9"},
-    {file = "tqdm-4.66.2.tar.gz", hash = "sha256:6cd52cdf0fef0e0f543299cfc96fec90d7b8a7e88745f411ec33eb44d5ed3531"},
+    {file = "tqdm-4.66.4-py3-none-any.whl", hash = "sha256:b75ca56b413b030bc3f00af51fd2c1a1a5eac6a0c1cca83cbb37a5c52abce644"},
+    {file = "tqdm-4.66.4.tar.gz", hash = "sha256:e4d936c9de8727928f3be6079590e97d9abfe8d39a590be678eb5919ffc186bb"},
 ]
 
 [package.dependencies]
@@ -133,4 +133,4 @@ telegram = ["requests"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<3.10"
-content-hash = "ee45b2306bd1b0805cf26c479566fbc6cc182d8e6a167060279d23f04fbee8fe"
+content-hash = "de7d1e842fb9967856bff15f7f371b838e7f7e043b810965841996664dfbf1a5"

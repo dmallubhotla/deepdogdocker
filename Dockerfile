@@ -15,7 +15,6 @@ RUN poetry --version
 
 COPY ./src/poetry.lock ./src/pyproject.toml ./
 
-# RUN poetry config warnings.export false
 RUN poetry export -f requirements.txt --without-hashes -o requirements.txt
 
 

@@ -4,7 +4,8 @@ FROM python@sha256:b81bfd63a766f385494a585e154465bb7178c820c4cd1e9cb6a8c3daa6243
 
 ENV PATH=/opt/poetry/bin:$PATH \
     POETRY_VERSION=1.8.2 \
-    POETRY_HOME=/opt/poetry
+    POETRY_HOME=/opt/poetry \
+    POETRY_WARNINGS_EXPORT=false
 
 RUN python3 -m venv $POETRY_HOME
 RUN $POETRY_HOME/bin/pip install poetry==$POETRY_VERSION
@@ -14,7 +15,7 @@ RUN poetry --version
 
 COPY ./src/poetry.lock ./src/pyproject.toml ./
 
-RUN poetry config warnings.export false
+# RUN poetry config warnings.export false
 RUN poetry export -f requirements.txt --without-hashes -o requirements.txt
 
 

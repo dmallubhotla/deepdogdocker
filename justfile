@@ -30,3 +30,6 @@ run-entry entrypoint *args:
 # Runs the built image, hops into bash
 run-bash:
 	docker run --rm --entrypoint /bin/bash -it {{IMAGE_BASE}}:local
+
+poetry-add target:
+	poetry -C src add --lock {{target}}@latest

@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.0](https://github.com/dmallubhotla/deepdogdocker/compare/v2.3.0...v2.4.0) (2024-05-09)
+
+
+### Features
+
+* deepdog 1.2.0 ([6208201](https://github.com/dmallubhotla/deepdogdocker/commit/62082018ced15c68268d436bac0746eeea2889c5))
+* slim python ([43b774a](https://github.com/dmallubhotla/deepdogdocker/commit/43b774a6eb7f7fbf302bd364e67abc31117665fc))
+
 ## [2.3.0](https://github.com/dmallubhotla/deepdogdocker/compare/v2.2.0...v2.3.0) (2024-05-03)
 
 

@@ -13,13 +13,13 @@ files = [
 
 [[package]]
 name = "deepdog"
-version = "1.1.0"
+version = "1.2.0"
 description = ""
 optional = false
 python-versions = "<3.10,>=3.8.1"
 files = [
-    {file = "deepdog-1.1.0-py3-none-any.whl", hash = "sha256:ae650f38956310f1b2f533aac0cb7bc323d7bac5a6f35ff01e3ccc29181ace62"},
-    {file = "deepdog-1.1.0.tar.gz", hash = "sha256:8616883b79522bdd8f8d28287163f2f35033c07140a56a982e466ad13f0051cc"},
+    {file = "deepdog-1.2.0-py3-none-any.whl", hash = "sha256:dfeec7531dc25f78bc92881c733642934d0508b5eab98b5e123eee2234bf9226"},
+    {file = "deepdog-1.2.0.tar.gz", hash = "sha256:767c5663e7a7a7588e6653f49972774ce9f92dba345dabfc0083ba493c94d48a"},
 ]
 
 [package.dependencies]
@@ -133,4 +133,4 @@ telegram = ["requests"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<3.10"
-content-hash = "de7d1e842fb9967856bff15f7f371b838e7f7e043b810965841996664dfbf1a5"
+content-hash = "d61f51fe795993bb9b93792d34a5473ee299070db5f654b3b08f1ca693d390c0"

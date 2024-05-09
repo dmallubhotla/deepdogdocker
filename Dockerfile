@@ -18,7 +18,7 @@ COPY ./src/poetry.lock ./src/pyproject.toml ./
 RUN poetry export -f requirements.txt --without-hashes -o requirements.txt
 
 
-FROM python@sha256:b81bfd63a766f385494a585e154465bb7178c820c4cd1e9cb6a8c3daa62433b7 as pdmeinstall
+FROM python:3.9-slim as pdmeinstall
 
 ENV PDME_HOME=/opt/pdme
 ENV PATH=${PDME_HOME}/bin:$PATH
